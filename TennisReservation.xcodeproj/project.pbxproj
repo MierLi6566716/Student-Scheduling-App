@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35393D962AC35B9A00335ECA /* ReservationFormGolfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35393D952AC35B9A00335ECA /* ReservationFormGolfView.swift */; };
+		35393D992AC35C2C00335ECA /* ReservationFormSATView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35393D982AC35C2C00335ECA /* ReservationFormSATView.swift */; };
+		35393D9B2AC39DCC00335ECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35393D9A2AC39DCC00335ECA /* ContentView.swift */; };
+		35393D9D2AC39E1C00335ECA /* TennisReservationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35393D9C2AC39E1C00335ECA /* TennisReservationApp.swift */; };
+		356CD2D22AC254E80090C184 /* RecommendObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356CD2D12AC254E80090C184 /* RecommendObjectView.swift */; };
+		356CD2D42AC2575F0090C184 /* RecommendGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356CD2D32AC2575F0090C184 /* RecommendGroupView.swift */; };
+		356CD2D62AC257990090C184 /* TitleWithMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356CD2D52AC257990090C184 /* TitleWithMoreView.swift */; };
+		356CD2D92AC26E810090C184 /* ReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356CD2D82AC26E810090C184 /* ReservationView.swift */; };
+		356CD2DD2AC279250090C184 /* ReservationFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356CD2DC2AC279250090C184 /* ReservationFormView.swift */; };
+		357022AE2AC222D900AD1903 /* SearchBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357022AD2AC222D900AD1903 /* SearchBox.swift */; };
+		357022B02AC2250500AD1903 /* ServiceObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357022AF2AC2250400AD1903 /* ServiceObjectView.swift */; };
+		357022B22AC2297E00AD1903 /* ServiceCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357022B12AC2297E00AD1903 /* ServiceCategoryView.swift */; };
+		358C6CDB2AC211E3002EC72B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358C6CDA2AC211E3002EC72B /* Assets.xcassets */; };
+		358C6CDE2AC211E3002EC72B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 358C6CDD2AC211E3002EC72B /* Preview Assets.xcassets */; };
+		358C6CE72AC21396002EC72B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358C6CE62AC21396002EC72B /* MainView.swift */; };
+		358C6CE92AC21406002EC72B /* MainTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358C6CE82AC21406002EC72B /* MainTitle.swift */; };
+		358C6CEB2AC215FA002EC72B /* CircleImageWithBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358C6CEA2AC215FA002EC72B /* CircleImageWithBlur.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		35393D952AC35B9A00335ECA /* ReservationFormGolfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationFormGolfView.swift; sourceTree = "<group>"; };
+		35393D982AC35C2C00335ECA /* ReservationFormSATView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationFormSATView.swift; sourceTree = "<group>"; };
+		35393D9A2AC39DCC00335ECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35393D9C2AC39E1C00335ECA /* TennisReservationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisReservationApp.swift; sourceTree = "<group>"; };
+		356CD2D12AC254E80090C184 /* RecommendObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendObjectView.swift; sourceTree = "<group>"; };
+		356CD2D32AC2575F0090C184 /* RecommendGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendGroupView.swift; sourceTree = "<group>"; };
+		356CD2D52AC257990090C184 /* TitleWithMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleWithMoreView.swift; sourceTree = "<group>"; };
+		356CD2D82AC26E810090C184 /* ReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationView.swift; sourceTree = "<group>"; };
+		356CD2DC2AC279250090C184 /* ReservationFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationFormView.swift; sourceTree = "<group>"; };
+		357022AD2AC222D900AD1903 /* SearchBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBox.swift; sourceTree = "<group>"; };
+		357022AF2AC2250400AD1903 /* ServiceObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceObjectView.swift; sourceTree = "<group>"; };
+		357022B12AC2297E00AD1903 /* ServiceCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCategoryView.swift; sourceTree = "<group>"; };
+		358C6CD32AC211E1002EC72B /* TennisReservation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisReservation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		358C6CDA2AC211E3002EC72B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		358C6CDD2AC211E3002EC72B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		358C6CE62AC21396002EC72B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		358C6CE82AC21406002EC72B /* MainTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTitle.swift; sourceTree = "<group>"; };
+		358C6CEA2AC215FA002EC72B /* CircleImageWithBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageWithBlur.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		358C6CD02AC211E1002EC72B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35393D942AC35B8D00335ECA /* Golf Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				35393D952AC35B9A00335ECA /* ReservationFormGolfView.swift */,
+			);
+			path = "Golf Reservation";
+			sourceTree = "<group>";
+		};
+		35393D972AC35C1A00335ECA /* SAT Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				35393D982AC35C2C00335ECA /* ReservationFormSATView.swift */,
+			);
+			path = "SAT Reservation";
+			sourceTree = "<group>";
+		};
+		356CD2D72AC267FD0090C184 /* Tennis Reservation */ = {
+			isa = PBXGroup;
+			children = (
+				356CD2D82AC26E810090C184 /* ReservationView.swift */,
+				356CD2DC2AC279250090C184 /* ReservationFormView.swift */,
+			);
+			path = "Tennis Reservation";
+			sourceTree = "<group>";
+		};
+		358C6CCA2AC211E1002EC72B = {
+			isa = PBXGroup;
+			children = (
+				358C6CD52AC211E1002EC72B /* TennisReservation */,
+				358C6CD42AC211E1002EC72B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		358C6CD42AC211E1002EC72B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				358C6CD32AC211E1002EC72B /* TennisReservation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		358C6CD52AC211E1002EC72B /* TennisReservation */ = {
+			isa = PBXGroup;
+			children = (
+				35393D972AC35C1A00335ECA /* SAT Reservation */,
+				35393D942AC35B8D00335ECA /* Golf Reservation */,
+				356CD2D72AC267FD0090C184 /* Tennis Reservation */,
+				358C6CE52AC21216002EC72B /* View */,
+				358C6CDA2AC211E3002EC72B /* Assets.xcassets */,
+				358C6CDC2AC211E3002EC72B /* Preview Content */,
+			);
+			path = TennisReservation;
+			sourceTree = "<group>";
+		};
+		358C6CDC2AC211E3002EC72B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				358C6CDD2AC211E3002EC72B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		358C6CE42AC21207002EC72B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				358C6CE62AC21396002EC72B /* MainView.swift */,
+				35393D9A2AC39DCC00335ECA /* ContentView.swift */,
+				35393D9C2AC39E1C00335ECA /* TennisReservationApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		358C6CE52AC21216002EC72B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				358C6CEA2AC215FA002EC72B /* CircleImageWithBlur.swift */,
+				358C6CE82AC21406002EC72B /* MainTitle.swift */,
+				357022AD2AC222D900AD1903 /* SearchBox.swift */,
+				357022B12AC2297E00AD1903 /* ServiceCategoryView.swift */,
+				356CD2D12AC254E80090C184 /* RecommendObjectView.swift */,
+				356CD2D32AC2575F0090C184 /* RecommendGroupView.swift */,
+				356CD2D52AC257990090C184 /* TitleWithMoreView.swift */,
+				357022AF2AC2250400AD1903 /* ServiceObjectView.swift */,
+				358C6CE42AC21207002EC72B /* App */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		358C6CD22AC211E1002EC72B /* TennisReservation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 358C6CE12AC211E3002EC72B /* Build configuration list for PBXNativeTarget "TennisReservation" */;
+			buildPhases = (
+				358C6CCF2AC211E1002EC72B /* Sources */,
+				358C6CD02AC211E1002EC72B /* Frameworks */,
+				358C6CD12AC211E1002EC72B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TennisReservation;
+			productName = TennisReservation;
+			productReference = 358C6CD32AC211E1002EC72B /* TennisReservation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		358C6CCB2AC211E1002EC72B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					358C6CD22AC211E1002EC72B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 358C6CCE2AC211E1002EC72B /* Build configuration list for PBXProject "TennisReservation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 358C6CCA2AC211E1002EC72B;
+			productRefGroup = 358C6CD42AC211E1002EC72B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				358C6CD22AC211E1002EC72B /* TennisReservation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		358C6CD12AC211E1002EC72B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358C6CDE2AC211E3002EC72B /* Preview Assets.xcassets in Resources */,
+				358C6CDB2AC211E3002EC72B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		358C6CCF2AC211E1002EC72B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356CD2D22AC254E80090C184 /* RecommendObjectView.swift in Sources */,
+				356CD2D92AC26E810090C184 /* ReservationView.swift in Sources */,
+				35393D9B2AC39DCC00335ECA /* ContentView.swift in Sources */,
+				358C6CEB2AC215FA002EC72B /* CircleImageWithBlur.swift in Sources */,
+				357022B02AC2250500AD1903 /* ServiceObjectView.swift in Sources */,
+				356CD2D62AC257990090C184 /* TitleWithMoreView.swift in Sources */,
+				35393D992AC35C2C00335ECA /* ReservationFormSATView.swift in Sources */,
+				358C6CE92AC21406002EC72B /* MainTitle.swift in Sources */,
+				357022AE2AC222D900AD1903 /* SearchBox.swift in Sources */,
+				358C6CE72AC21396002EC72B /* MainView.swift in Sources */,
+				356CD2DD2AC279250090C184 /* ReservationFormView.swift in Sources */,
+				356CD2D42AC2575F0090C184 /* RecommendGroupView.swift in Sources */,
+				35393D962AC35B9A00335ECA /* ReservationFormGolfView.swift in Sources */,
+				357022B22AC2297E00AD1903 /* ServiceCategoryView.swift in Sources */,
+				35393D9D2AC39E1C00335ECA /* TennisReservationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		358C6CDF2AC211E3002EC72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		358C6CE02AC211E3002EC72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		358C6CE22AC211E3002EC72B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TennisReservation/Preview Content\"";
+				DEVELOPMENT_TEAM = 75JLQV75XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mier.TennisReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		358C6CE32AC211E3002EC72B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TennisReservation/Preview Content\"";
+				DEVELOPMENT_TEAM = 75JLQV75XV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Mier.TennisReservation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		358C6CCE2AC211E1002EC72B /* Build configuration list for PBXProject "TennisReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358C6CDF2AC211E3002EC72B /* Debug */,
+				358C6CE02AC211E3002EC72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		358C6CE12AC211E3002EC72B /* Build configuration list for PBXNativeTarget "TennisReservation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				358C6CE22AC211E3002EC72B /* Debug */,
+				358C6CE32AC211E3002EC72B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 358C6CCB2AC211E1002EC72B /* Project object */;
+}
