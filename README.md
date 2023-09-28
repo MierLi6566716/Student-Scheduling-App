@@ -1,3 +1,3 @@
-# Student-Scheduling-App
+# Schedule_Lesson
 
 This project creates an IOS application from scratch using XCode and the language Swift. The application is called "Schedule_Lesson", where my students in tennis, golf, and SAT from private tutoring can interactively schedule lessons with me. Instead of the confusion caused through text messages and/or email, they can now access the application, choose their interest, and affirm location, and input the date, time, number of people into the application database. I will then send them the appointment information through their preferred way of contact, as indicated also through the appointment form.
